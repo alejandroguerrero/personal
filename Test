@@ -5,12 +5,12 @@ int fact(int num, int ac);
 void main(void)
 {
 	int num=0;
-	printf("...::: Factorial Recursivo :::...\n\n");
+	printf("...::: Recursive factorial :::...\n\n");
 
-	printf("Introduce el numero a calcular el factorial: ");
+	printf("Enter the number to calculate the factorial: ");
 	scanf("%d", &num);
 
-	printf("\nEl factorial de %d es: %d", num, fact(num,1));
+	printf("\nThe factorial of %d is: %d", num, fact(num,1));
 }
 
 int fact(int num, int ac)
